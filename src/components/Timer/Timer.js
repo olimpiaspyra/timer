@@ -22,8 +22,6 @@ const Timer = ({time}) => {
   }
   if (milliseconds < 10) {
     milliseconds = `00${milliseconds}`;
-  } else if (milliseconds < 100 && milliseconds > 10) {
-    milliseconds = `0${milliseconds}`;
   }
 
   return (
